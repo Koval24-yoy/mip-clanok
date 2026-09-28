@@ -15,7 +15,7 @@
 
 \pagestyle{headings}
 
-\title{Názov\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2026/27, vedenie: Richard Marko}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{Súčasné trendy vo vývoji automatizovaných systémov s využitím asynchrónneho programovania v jazyku Python\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2026/27, vedenie: Richard Marko}} % meno a priezvisko vyučujúceho na cvičeniach
 
 \author{Oleksii Kovalevskyi\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
@@ -23,104 +23,33 @@
 	{\small \texttt{xkovalevskyi@stuba.sk}}
 	}
 
-\date{\small 21. september 2026} % upravte
+\date{\small 28. september 2026} % Aktualizovaný dátum
 
 \usepackage{todonotes}
 
 \begin{document}
-\todo{Treba doplniť citáciu}
-\todo[color=blue!20]{Oleksii: Toto je môj komentár}
 \maketitle
 
 \begin{abstract}
-\ldots
+Tento článok poskytuje prehľad súčasného stavu v oblasti vývoja automatizovaných softvérových botov s využitím asynchrónneho programovania. Zameriava sa na moderné prístupy a knižnice v jazyku Python, ako sú aiogram a apscheduler, ich architektúru, výhody a úskalia pri nasadzovaní v reálnych aplikáciách. Cielom je zosumarizovať dostupné riešenia a porovnať ich efektivitu.
 \end{abstract}
 
 
-
 \section{Úvod}
+poplatky budu
+% Tu neskôr doplníš motiváciu pre čitateľa a vysvetlíš, o čom píšeš. Úvod sa nezvykne deliť na podčasti.
 
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
+\section{Prehľad architektúry asynchrónnych systémov}
+% Tu bude teoretický základ a súčasný stav problematiky.
 
-Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
-Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
-Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
-Záverečné poznámky prináša časť~\ref{zaver}.
+\section{Analýza moderných nástrojov v jazyku Python}
+% Tu popíšeš konkrétne technológie a prístupy (napr. aiogram, apscheduler).
 
-\section{Moja nová časť}
-Toto je prvý odsek v mojej novej časti.
+\section{Porovnanie a zhodnotenie prístupov}
+% Tu zhodnotíš výhody a nevýhody analyzovaných riešení.
 
-Toto je druhý odsek, ktorý je oddelený prázdnym riadkom.
-\input{Novy.tex}
-\section{Nejaká časť} \label{nejaka}
-
-Z obr.~\ref{f:rozhod} je všetko jasné. 
-
-\begin{figure*}[tbh]
-\centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
-
-
-
-\section{Iná časť} \label{ina}
-
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
-
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
-
-
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
-Niekedy treba uviesť zoznam:
-
-\begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
-\end{itemize}
-
-Ten istý zoznam, len číslovaný:
-
-\begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
-\end{enumerate}
-
-
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
-
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
-
-
-
-\section{Dôležitá časť} \label{dolezita}
-
-
-
-
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
-
-
-
-
-\section{Záver} \label{zaver} % prípadne iný variant názvu
-
-
-
-%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
-
+\section{Záver}
+% Tu zhrnieš zistenia a prínos článku.
 
 % týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
 \bibliography{literatura}
